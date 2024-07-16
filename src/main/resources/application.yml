@@ -21,12 +21,3 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
-  security:
-    oauth2:
-      client:
-        registration:
-          google:
-            client-id: 335458029914-v5l782vq8nlt0n4i3t7d6f4fh5eoshvq.apps.googleusercontent.com
-      resourceserver:
-        jwt:
-          issuer-uri: https://accounts.google.com
